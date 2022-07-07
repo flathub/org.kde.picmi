@@ -1,55 +1,55 @@
 {
-  "app-id": "org.kde.picmi",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
-  "sdk": "org.kde.Sdk",
-  "command": "picmi",
-  "rename-icon": "picmi",
-  "finish-args": [
-    "--device=dri",
-    "--socket=pulseaudio",
-    "--share=ipc",
-    "--socket=wayland",
-    "--socket=fallback-x11"
-  ],
-  "modules": [
-    {
-      "name": "libkdegames",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+    "app-id": "org.kde.picmi",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "picmi",
+    "rename-icon": "picmi",
+    "finish-args": [
+        "--device=dri",
+        "--socket=pulseaudio",
+        "--share=ipc",
+        "--socket=wayland",
+        "--socket=fallback-x11"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.04.2/src/libkdegames-22.04.2.tar.xz",
-          "sha256": "c33af6c13540add132122b36b2faabc1f0beaf2c06d29e575f7789f1c5342911",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdegames-$version.tar.xz"
-          }
-        }
-      ]
-    },
-    {
-      "name": "picmi",
-      "buildsystem": "cmake-ninja",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.04.2/src/picmi-22.04.2.tar.xz",
-          "sha256": "a774b45df770c7ad4410636b0e12d7b1bec07768bc48db0e697abe017d41af81",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/picmi-$version.tar.xz"
-          }
+            "name": "libkdegames",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/libkdegames-22.04.2.tar.xz",
+                    "sha256": "c33af6c13540add132122b36b2faabc1f0beaf2c06d29e575f7789f1c5342911",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdegames-$version.tar.xz"
+                    }
+                }
+            ]
         },
         {
-          "type": "patch",
-          "path": "oars.patch"
+            "name": "picmi",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/picmi-22.04.3.tar.xz",
+                    "sha256": "8658de7327c19f4a9535a7f19da00e43e78cf19604c1864426f61345a306c05a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/picmi-$version.tar.xz"
+                    }
+                },
+                {
+                    "type": "patch",
+                    "path": "oars.patch"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
