@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/libkdegames-22.08.1.tar.xz",
-                    "sha256": "a9f3c29e05796fd09d155d9c263dcd7b9a70903994cc56fb12dc8d03145c30aa",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/libkdegames-22.08.2.tar.xz",
+                    "sha256": "524ad11b13ac946d86e599a7a255b651f9377fad4433a4ec22924c8f54cc6dbd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -36,18 +36,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/picmi-22.08.1.tar.xz",
-                    "sha256": "5766bb982da7bb8300caa2c26293056ba103137e89e7fc769563d1408100f868",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/picmi-22.08.2.tar.xz",
+                    "sha256": "241e8cc9359f06e8745387121a4c75aa5848c95d74436d6716a972863cbd38cb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/picmi-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "oars.patch"
                 }
             ]
         }
