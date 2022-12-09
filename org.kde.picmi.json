@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/picmi-22.08.3.tar.xz",
-                    "sha256": "702ffaf70801536a7820358e013a51bd764fdb911ff31c7d92fce1c85857e7dc",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/picmi-22.12.0.tar.xz",
+                    "sha256": "beb079bb06e3991d146ac854073baca2f9a45a9e5bcee774e366992cc111b4ff",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
