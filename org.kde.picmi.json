@@ -7,10 +7,10 @@
     "rename-icon": "picmi",
     "finish-args": [
         "--device=dri",
-        "--socket=pulseaudio",
         "--share=ipc",
-        "--socket=wayland",
-        "--socket=fallback-x11"
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland"
     ],
     "modules": [
         {
