@@ -24,8 +24,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/libkdegames-25.04.3.tar.xz",
-                    "sha256": "63cd2b137e989a635994c48f93dc9ecf3b5aa6306d39bda5a7a38c9aa2a437a4",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/libkdegames-25.08.0.tar.xz",
+                    "sha256": "15579343d5b06608115e8e95473b80bc91de8841b1a79584f5615a91fe57e2f7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -41,8 +41,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/picmi-25.04.3.tar.xz",
-                    "sha256": "c94f5a3fe8a4401b4001e21ff3e274cb421ee56f2ef7daeaff881da709a66aa5",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/picmi-25.08.0.tar.xz",
+                    "sha256": "c0edbe4da0fbc78223893a3fec1cba75840f0b1eb735a4a10be422f79bb959a3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
