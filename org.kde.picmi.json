@@ -15,6 +15,7 @@
     "cleanup": [
         "/include",
         "/lib/cmake",
+        "/share/doc",
         "/share/qlogging-categories6"
     ],
     "modules": [
